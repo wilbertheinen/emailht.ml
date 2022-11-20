@@ -12,7 +12,7 @@ blog-theme: dark # By default, Atega theme uses a 'light' color scheme, to chang
 # Author Settings
 author:
   name: Wilbert Heinen
-  image: '/images/01.jpg'
+  image: '/images/wilbert-heinen_itg-connect.png'
 
 
 #-------------------------------
@@ -23,7 +23,7 @@ hero:
   hero__description: Met een voorliefde voor lichtgewicht, responsive en toegankelijke e-mails
   hero__button__text: Meer over mij
   hero__button__link: '/overmij'
-  hero__image: '/images/01.jpg'
+  hero__image: '/images/wilbert-heinen_itg-connect.png'
 
 
 #-------------------------------
