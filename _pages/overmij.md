@@ -2,7 +2,7 @@
 layout: page
 title: Over mij
 permalink: /overmij/
-image: '/images/02.jpg'
+image: '/images/wilbert-heinen_itg-connect.jpg'
 ---
 
 Hoi, ik ben Wilbert Heinen. In het dagelijks leven werkzaam bij Centraal Beheer Zakelijk als Digital Marketeer en met name bezig met e-mail marketing automation.
