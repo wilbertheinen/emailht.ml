@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
-image: '/images/01.jpg'
+title: Over mij
+permalink: /overmij/
+image: '/images/02.jpg'
 ---
 
-Hi, my name is Leo Hawkins. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf. Twee thundercats ennui gochujang disrupt gluten-free.
+Hoi, ik ben Wilbert Heinen. In het dagelijks leven werkzaam bij Centraal Beheer Zakelijk als Digital Marketeer en met name bezig met e-mail marketing automation.
+
+Ik bouw e-mails. Dit kunnen eenmalige e-mails zijn, zoals een parallax e-mail. Maar ook complete Drag&drop E-mail Templates in deployteq. Al dan niet met interactieve elementen, maar wel altijd geoptimaliseerd voor toegankelijkheid, kleinere schermen en darkmode.
 
 ***
 
@@ -30,7 +32,7 @@ Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicl
 
 ***
 
-<p><iframe src="https://www.youtube.com/embed/FD3sI0LgKSM" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/alNdmC1Ojtw" frameborder="0" allowfullscreen></iframe></p>
 
 ***
 
