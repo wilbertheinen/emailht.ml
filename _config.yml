@@ -2,7 +2,7 @@
 # General Site Settings
 title: emailht.ml
 logo: # You can add own logo. For example '/images/logo.png'.
-description: emailht.ml - Hoge kwaliteit HTML en CSS voor e-mail
+description: emailht.ml - robuuste, toegankelijke en lichtgewicht HTML en CC voor e-mail
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.emailht.ml" # the base hostname & protocol for your site, e.g. http://example.com
 blog-theme: dark # By default, Atega theme uses a 'light' color scheme, to change the color scheme to dark use 'dark' value (_includes/color-scheme)
@@ -20,7 +20,7 @@ author:
 hero:
   hero__title: Hoi, Ik ben <span class="hero__name">Wilbert Heinen</span>.
   hero__job: Emaildeveloper
-  hero__description: Met een voorliefde voor lichtgewicht, responsive en toegankelijke e-mails
+  hero__description: Met een voorliefde voor robuuste, toegankelijke en lichtgewicht e-mails
   hero__button__text: Meer over mij
   hero__button__link: '/overmij'
   hero__image: '/images/wilbert-heinen_headshot.jpeg'
