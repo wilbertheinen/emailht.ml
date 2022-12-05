@@ -16,10 +16,13 @@ Hiervoor heb ik ruim 11 jaar als Campaign Developer gewerkt bij e-Village, wat l
 
 Mijn hart ligt bij e-mail development. Ik vind het fantastisch om de grenzen van e-mailclients op te zoeken en toch iets werkend krijgen in een e-mail client waarvan eerst gedacht werd dat dat niet mogelijk was. Als ik een e-mail maak zorg ik dat deze op z’n minst responsive, de afbeeldingen retinaproof, geoptimaliseerd voor darkmode en zo toegankelijk mogelijk geschreven is. Deze kunnen dan worden aangevuld met interactieve elementen of bijvoorbeeld webfonts als een zogenaamde ‘Progressive Enhancement’.
 
-Hierover vertellen vind ik minstens even leuk! En dit heb ik op een aantal inspiratiesessies van e-Village en TeamITG mogen doen, maar bijvoorbeeld ook bij [InboxExpo](https://inboxexpo.com/speaker-profile/wilbert-heinen/) en LitmusLive. Met één specifieke hack mocht ik het podium betreden bij LitmusLive om dit tijdens een EmailHack sessie toe te lichten.
+Hierover vertellen vind ik minstens even leuk! En dit heb ik op een aantal inspiratiesessies van e-Village en TeamITG mogen doen, maar bijvoorbeeld ook virtueel bij [InboxExpo](https://inboxexpo.com/speaker-profile/wilbert-heinen/) en [LitmusLive: Snip It Before You Ship It](https://www.litmus.com/blog/get-ready-for-litmus-live-week-2020/). 
+
+![Wilbert at LitmusLive]({{site.baseurl}}/images/snip-it-before-you-ship-it.jpeg)
+
+Met één specifieke hack mocht ik het podium betreden bij LitmusLive om dit tijdens een EmailHack sessie toe te lichten.
 
 <p><iframe src="https://www.youtube.com/embed/alNdmC1Ojtw" frameborder="0" allowfullscreen></iframe></p>
-
 
 Sinds 2022 ben ik jurylid bij de [DDMA EMAS awards](https://ddma.nl/kennisbank/inschrijving-van-de-nieuwe-ddma-emas-awards-geopend/) in de categorie Design en mag ik mijn expertise loslaten op de inzendingen.
 
