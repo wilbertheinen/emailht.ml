@@ -4,7 +4,7 @@ title: Happy New Year!
 description: Een goed voornemen voor 2023
 date: 2022-01-01 08:00:00 +0100
 image: '/images/alexander-naglestad-Zv-QuWlc_TU-unsplash.jpg'
-tags: [Wilbert, Happy New Year]
+tags: [emaildevelopment, emailmarketing]
 ---
 
 Allereerst de allerbeste wensen voor 2023!
