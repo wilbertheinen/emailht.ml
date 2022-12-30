@@ -2,6 +2,14 @@
   {% if page.previous.url %}
   <a class="post__prev" href="{{page.previous.url}}">
     <div class="prev__image">
+      {% if page.previous.image and page.previous.video_embed %}
+      <div class="video-icon">
+        <div class="circle pulse"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+          <polygon points="40,30 65,50 40,70"></polygon>
+        </svg>
+      </div>
+      {% endif %}
       <img class="lazy" data-src="{{site.baseurl}}{{page.previous.image}}" alt="{{ page.title }}">
     </div>
     <div class="prev__box">
@@ -18,6 +26,14 @@
       <h2 class="post__nav__title">{{page.next.title}}</h2>
     </div>
     <div class="next__image">
+      {% if page.next.image and page.next.video_embed %}
+      <div class="video-icon">
+        <div class="circle pulse"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+          <polygon points="40,30 65,50 40,70"></polygon>
+        </svg>
+      </div>
+      {% endif %}
       <img class="lazy" data-src="{{site.baseurl}}{{page.next.image}}" alt="{{ page.title }}">
     </div>
   </a>

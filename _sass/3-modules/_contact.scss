@@ -3,11 +3,6 @@
   margin-bottom: 30px;
 }
 
-.form-box {
-  max-width: 750px;
-  margin: 0 auto;
-}
-
 .form__group {
   margin-bottom: 20px;
 
@@ -21,18 +16,19 @@
   padding: 20px;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid $border-color;
+  border: 1px solid var(--border-alt-color);
+  border-radius: 4px;
   outline: none;
   transition: 250ms;
   resize: vertical;
-  color: rgba($text-color, 0.8);
-  background: $background-color-alt;
+  color: var(--text-color);
+  background: var(--background-alt-color);
 
   &::placeholder {
-    color: rgba($text-color, 0.8);
+    color: var(--text-color);
   }
 
   &:focus {
-    border: 1px solid $brand-color;
+    border: 1px solid var(--brand-color);
   }
 }
