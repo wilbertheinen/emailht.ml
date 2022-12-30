@@ -14,7 +14,7 @@ menu__settings:
       url: "/about/"
     - title: "Contact"
       url: "/contact/"
-    - title: "Accessibilty in e-mail"
+    - title: "Accessibility in e-mail"
       url: "/accessible-email-documentation/"
 
 
