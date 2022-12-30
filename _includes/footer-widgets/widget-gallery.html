@@ -11,9 +11,9 @@
         <div class="gallery__image">
           <picture>
             {% if image.urldark %}
-            <source srcset="{{site.baseurl}}{{image.urldark}}" media="(prefers-color-scheme:dark)" />
+            <source srcset="{{site.baseurl}}{{image.url}}" media="(prefers-color-scheme:light)" />
             {% endif %}
-            <source srcset="{{site.baseurl}}{{image.url}}" />
+            <source srcset="{{site.baseurl}}{{image.urldark}}" media="(prefers-color-scheme:dark)" />
             <img src="{{site.baseurl}}{{image.url}}" alt="{{image.alt}}" loading="lazy">
           </picture> 
         </div>
