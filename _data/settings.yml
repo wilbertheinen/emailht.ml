@@ -78,22 +78,12 @@ hero:
 #-------------------------------
 # Gallery Footer Section
 gallery:
-  enable: false
-  gallery__title: Gallery
-  gallery__columns: "3" # You can change the number of gallery columns
+  enable: true
+  gallery__title: ESP's
+  gallery__columns: "1" # You can change the number of gallery columns
   gallery__images:
-    - alt: "Rest"
-      url: "/images/100.jpg"
-    - alt: "Lifestyle"
-      url: "/images/101.jpg"
-    - alt: "Hobby"
-      url: "/images/102.jpg"
-    - alt: "Notes"
-      url: "/images/103.jpg"
-    - alt: "Rest"
-      url: "/images/104.jpg"
-    - alt: "Hobby"
-      url: "/images/105.jpg"
+    - alt: "deployteq"
+      url: "/images/deployteq_logo.png"
 
 
 #-------------------------------
