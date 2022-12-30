@@ -9,7 +9,7 @@ tags: [emaildevelopment]
 
 ## De allerbeste wensen voor 2023!
 
-Om het jaar goed te beginnen ben ik gestart met [emailht.ml](/home). Ik vind het namelijk heel leuk om met HTML en CSS voor e-mail bezig te zijn. Sterker nog, eigenlijk is het gewoon een hobby!
+Om het jaar goed te beginnen ben ik gestart met [emailht.ml](https://emailht.ml). Ik vind het namelijk heel leuk om met HTML en CSS voor e-mail bezig te zijn. Sterker nog, eigenlijk is het gewoon een hobby!
 
 ## Waar ik mijn dagelijks brood mee verdien
 In het dagelijks leven ben ik werkzaam bij [Centraal Beheer Zakelijk](https://www.centraalbeheer.nl/zakelijk) als Digital Marketeer met een specialisme in E-mail Marketing Automation en dan met name de technische invulling hiervan en bouw en onderhoud ik meerdere e-mails en e-mail templates.
