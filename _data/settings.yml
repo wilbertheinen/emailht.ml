@@ -80,7 +80,7 @@ hero:
 gallery:
   enable: true
   gallery__title: ESP's
-  gallery__columns: "1" # You can change the number of gallery columns
+  gallery__columns: "2" # You can change the number of gallery columns
   gallery__images:
     - alt: "deployteq"
       url: "/images/deployteq_logo.png"
