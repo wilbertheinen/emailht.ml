@@ -2,7 +2,7 @@
 layout: post
 title: Happy New Year!
 description: Een goed voornemen voor 2023
-date: 2023-01-01 08:00:00 +0100
+date: 2022-01-01 08:00:00 +0100
 image: '/images/wilbert-heinen_itg-connect.jpg'
 tags: [Wilbert, Happy New Year]
 ---
