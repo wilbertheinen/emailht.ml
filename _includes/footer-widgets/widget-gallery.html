@@ -10,7 +10,10 @@
         {% for image in site.data.settings.gallery.gallery__images %}
         <div class="gallery__image">
           <picture>
+            {% if image.urldark %}
             <source srcset="{{site.baseurl}}{{image.urldark}}" media="(prefers-color-scheme:dark)" />
+            {% endif %}
+            <source srcset="{{site.baseurl}}{{image.url}}" />
             <img src="{{site.baseurl}}{{image.url}}" alt="{{image.alt}}" loading="lazy">
           </picture>
         </div>
