@@ -2,7 +2,7 @@
 # Site Settings
 title: emailht.ml
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Hét adres voor up-to-date robuuste, responsive en toegankelijke HTML voor e-mail
+description: Hét adres voor up-to-date, robuuste, responsive en toegankelijke HTML en CSS voor e-mail
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
