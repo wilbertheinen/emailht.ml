@@ -83,8 +83,8 @@ gallery:
   gallery__columns: "20" # You can change the number of gallery columns
   gallery__images:
     - alt: "deployteq"
-      url: "/images/deployteq_logo.png"
-      urldark: "/images/Deployteq-Grey-LBlue_RGB-1.svg"
+      url: "/images/Deployteq-Grey-LBlue_RGB-1.svg"
+      urldark: "/images/deployteq_logo.png"
 
 
 #-------------------------------
