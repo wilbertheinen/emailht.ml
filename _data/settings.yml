@@ -69,7 +69,7 @@ links__item:
 hero:
   hero__title: Hoi, Ik ben <span>Wilbert Heinen</span>. # Wrap text in a <span></span> tag to highlight and underline text.
   hero__job: Email Developer
-  hero__description: Lichtgewicht, robuuste, responsive en toegankelijke HTML voor e-mail gaat mijn hart sneller van kloppen.
+  hero__description: Lichtgewicht, robuuste, responsive en toegankelijke HTML voor e-mail is helemaal mijn ding.
   hero__button__text: Meer over mij
   hero__button__link: "/about/"
   hero__image: "/images/wilbert-heinen_headshot.jpeg"
@@ -130,7 +130,7 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+disqus-identifier: # Add your shortname for Disqus Comment. For example anvod-studio-test
 
 
 #-------------------------------
