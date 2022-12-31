@@ -84,7 +84,6 @@ gallery:
   gallery__images:
     - alt: "deployteq"
       url: "/images/deployteq_logo_light.png"
-      urldark: "/images/deployteq_logo_dark.png"
 
 
 #-------------------------------
