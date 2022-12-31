@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>emailht.ml</title>
+        <description>Hét adres voor up-to-date, robuuste, responsive en toegankelijke HTML en CSS voor e-mail</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 31 Dec 2022 16:56:56 +0100</pubDate>
+        <lastBuildDate>Sat, 31 Dec 2022 16:56:56 +0100</lastBuildDate>
+        <generator>Jekyll v4.3.1</generator>
+        
+    </channel>
+</rss>
