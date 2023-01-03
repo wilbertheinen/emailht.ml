@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
-permalink: /about/
+title: Over mij
+permalink: /over-mij/
 image: '/images/wilbert-heinen_itg-connect.jpg'
 ---
 
@@ -27,6 +27,6 @@ Met één specifieke hack mocht ik het podium betreden bij LitmusLive om dit tij
 Sinds 2022 ben ik jurylid bij de [DDMA EMAS awards](https://ddma.nl/kennisbank/inschrijving-van-de-nieuwe-ddma-emas-awards-geopend/) in de categorie Design en mag ik mijn expertise loslaten op de inzendingen.
 
 ## Waarom daarnaast nog een eigen toko?
-Omdat dit allemaal eigenlijk ook gewoon een hobby is ben ik [emailht.ml](https://www.emailht.ml) gestart. Zo kan ik naast m’n werk bij [Centraal Beheer Zakelijk](https://www.centraalbeheer.nl/zakelijk) ook nog steeds voor andere clubs toffe e-mails en robuuste e-mail templates bouwen. Tegelijkertijd blijf ik op de hoogte van de meest recente ontwikkeling binnen e-mail development en kan ik dat weer toepassen bij [Centraal Beheer Zakelijk](https://www.centraalbeheer.nl/zakelijk).
+Omdat dit allemaal eigenlijk ook gewoon een hobby is ben ik [emailht.ml](/) gestart. Zo kan ik naast m’n werk bij [Centraal Beheer Zakelijk](https://www.centraalbeheer.nl/zakelijk) ook nog steeds voor andere clubs toffe e-mails en robuuste e-mail templates bouwen. Tegelijkertijd blijf ik op de hoogte van de meest recente ontwikkeling binnen e-mail development en kan ik dat weer toepassen bij [Centraal Beheer Zakelijk](https://www.centraalbeheer.nl/zakelijk).
 
 Dus ben je op zoek naar iemand die een toffe e-mail, een interactief e-mail element of een robuuste e-mail template voor je kan bouwen, [let me know](/contact)!

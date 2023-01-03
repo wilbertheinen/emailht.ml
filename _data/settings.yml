@@ -10,8 +10,8 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: "About"
-      url: "/about/"
+    - title: "Over mij"
+      url: "/over-mij/"
     - title: "Contact"
       url: "/contact/"
     - title: "Accessibility in e-mail"
@@ -71,7 +71,7 @@ hero:
   hero__job: Email Developer
   hero__description: Lichtgewicht, robuuste, responsive en toegankelijke HTML voor e-mail is helemaal mijn ding.
   hero__button__text: Meer over mij
-  hero__button__link: "/about/"
+  hero__button__link: "/over-mij/"
   hero__image: "/images/wilbert-heinen_headshot.jpeg"
 
 

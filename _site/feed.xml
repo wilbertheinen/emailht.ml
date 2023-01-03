@@ -5,9 +5,44 @@
         <description>Hét adres voor up-to-date, robuuste, responsive en toegankelijke HTML en CSS voor e-mail</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 31 Dec 2022 16:56:56 +0100</pubDate>
-        <lastBuildDate>Sat, 31 Dec 2022 16:56:56 +0100</lastBuildDate>
+        <pubDate>Tue, 03 Jan 2023 01:21:26 +0100</pubDate>
+        <lastBuildDate>Tue, 03 Jan 2023 01:21:26 +0100</lastBuildDate>
         <generator>Jekyll v4.3.1</generator>
+        
+            <item>
+                <title>Happy New Year!</title>
+                <description>&lt;h2 id=&quot;de-allerbeste-wensen-voor-2023&quot;&gt;De allerbeste wensen voor 2023!&lt;/h2&gt;
+
+&lt;p&gt;Om het jaar goed te beginnen ben ik gestart met &lt;a href=&quot;/&quot;&gt;emailht.ml&lt;/a&gt;. Ik vind het namelijk heel leuk om met HTML en CSS voor e-mail bezig te zijn. Sterker nog, eigenlijk is het gewoon een hobby!&lt;/p&gt;
+
+&lt;h2 id=&quot;waar-ik-mijn-dagelijks-brood-mee-verdien&quot;&gt;Waar ik mijn dagelijks brood mee verdien&lt;/h2&gt;
+&lt;p&gt;In het dagelijks leven ben ik werkzaam bij &lt;a href=&quot;https://www.centraalbeheer.nl/zakelijk&quot;&gt;Centraal Beheer Zakelijk&lt;/a&gt; als Digital Marketeer met een specialisme in E-mail Marketing Automation en dan met name de technische invulling hiervan en bouw en onderhoud ik meerdere e-mails en e-mail templates.&lt;/p&gt;
+
+&lt;p&gt;Hiervoor heb ik ruim 11 jaar als Campaign Developer gewerkt bij e-Village, wat later TeamITG werd en tegenwoordig &lt;a href=&quot;https://deployteq.com/&quot;&gt;deployteq&lt;/a&gt; heet. Hier werkte ik veel voor en samen met onder andere Transavia, Shell, Bol.com, Eneco en vele anderen. Voor hen ontwikkelde ik met name de (drag&amp;amp;drop) e-mail templates in Clang, later beter bekend als CanopyDeploy en tegenwoordig ook &lt;a href=&quot;https://deployteq.com/&quot;&gt;deployteq&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ik vind het fantastisch om de grenzen van e-mailclients op te zoeken en toch iets werkend krijgen in een e-mail client waarvan eerst gedacht werd dat dat niet mogelijk was&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sinds 2022 ben ik jurylid bij de &lt;a href=&quot;https://ddma.nl/kennisbank/inschrijving-van-de-nieuwe-ddma-emas-awards-geopend/&quot;&gt;DDMA EMAS awards&lt;/a&gt; in de categorie Design en mag ik mijn expertise loslaten op de inzendingen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/design-jury_ddma-emas.jpeg&quot; alt=&quot;Design Jury DDMA Email Marketing Automation Summit&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;waarom-daarnaast-nog-een-eigen-toko&quot;&gt;Waarom daarnaast nog een eigen toko?&lt;/h2&gt;
+&lt;p&gt;Mijn hart ligt bij e-mail development. Ik vind het fantastisch om de grenzen van e-mailclients op te zoeken en toch iets werkend krijgen in een e-mail client waarvan eerst gedacht werd dat dat niet mogelijk was. Als ik een e-mail maak zorg ik dat deze op z’n minst responsive, de afbeeldingen retinaproof, geoptimaliseerd voor darkmode en zo toegankelijk mogelijk geschreven is. Deze kunnen dan worden aangevuld met interactieve elementen of bijvoorbeeld webfonts als een zogenaamde ‘Progressive Enhancement’.&lt;/p&gt;
+
+&lt;p&gt;Zo kan ik naast m’n werk bij &lt;a href=&quot;https://www.centraalbeheer.nl/zakelijk&quot;&gt;Centraal Beheer Zakelijk&lt;/a&gt; ook nog steeds voor andere clubs toffe (interactieve) e-mails en robuuste e-mail templates bouwen. Tegelijkertijd blijf ik op de hoogte van de meest recente ontwikkeling binnen e-mail development en kan ik dat weer toepassen bij &lt;a href=&quot;https://www.centraalbeheer.nl/zakelijk&quot;&gt;Centraal Beheer Zakelijk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dus ben je op zoek naar iemand die een toffe e-mail, een interactief e-mail element of een robuuste e-mail template voor je kan bouwen, &lt;a href=&quot;/contact&quot;&gt;let me know&lt;/a&gt;!&lt;/p&gt;
+</description>
+                <pubDate>Sun, 01 Jan 2023 08:00:00 +0100</pubDate>
+                <link>http://localhost:4000/happy-new-year/</link>
+                <guid isPermaLink="true">http://localhost:4000/happy-new-year/</guid>
+                
+                <category>emaildevelopment</category>
+                
+                
+            </item>
         
     </channel>
 </rss>

@@ -25,13 +25,13 @@ layout: default
             {% endif %}
 
             <div class="post-meta">
-              <a href="{{site.baseurl}}/about/" class="post-author-image">
+              <a href="{{site.baseurl}}/over-mij/" class="post-author-image">
                 <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
               </a>
 
               <div class="post-meta__bottom">
-                <a class="post-author" href="{{site.baseurl}}/about/">{{site.data.settings.author.author__name}}</a>
-                <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%-d %B, %Y" %}{{ page.date | date: date_format }}</time>
+                <a class="post-author" href="{{site.baseurl}}/over-mij/">{{site.data.settings.author.author__name}}</a>
+                <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d-%m-%Y" %}{{ page.date | date: date_format }}</time>
               </div>
             </div>
           </div>
