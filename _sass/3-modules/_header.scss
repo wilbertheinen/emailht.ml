@@ -379,16 +379,18 @@
   }
 }
 
-.toggle-sun {
+.toggle-sun,
+.logo-dark {
   display: none;
 }
 
 .dark-mode {
-  .toggle-sun {
+  .toggle-sun,
+  .logo-dark {
     display: block;
   }
-
-  .toggle-moon {
+  .toggle-moon,
+  .logo-light {
     display: none;
   }
 }

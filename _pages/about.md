@@ -22,7 +22,7 @@ Hierover vertellen vind ik minstens even leuk! En dit heb ik op een aantal inspi
 
 Met één specifieke hack mocht ik het podium betreden bij LitmusLive om dit tijdens een EmailHack sessie toe te lichten.
 
-<p><iframe src="https://www.youtube.com/embed/alNdmC1Ojtw" frameborder="0" allowfullscreen></iframe></p>
+<p class="youtube-embed"><iframe src="https://www.youtube-nocookie.com/embed/alNdmC1Ojtw" frameborder="0" allowfullscreen></iframe></p>
 
 Sinds 2022 ben ik jurylid bij de [DDMA EMAS awards](https://ddma.nl/kennisbank/inschrijving-van-de-nieuwe-ddma-emas-awards-geopend/) in de categorie Design en mag ik mijn expertise loslaten op de inzendingen.
 

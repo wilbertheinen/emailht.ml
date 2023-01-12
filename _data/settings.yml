@@ -1,7 +1,8 @@
 #-------------------------------
 # Site Settings
 title: emailht.ml
-logo: # You can add own logo. For example '/images/logo.png'.
+logo: "/images/logo_emailhtml_light.png" # You can add own logo. For example '/images/logo.png'.
+logo_dark: "/images/logo_emailhtml_dark.png"
 description: Hét adres voor up-to-date, robuuste, responsive en toegankelijke HTML en CSS voor e-mail
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -39,30 +40,6 @@ links__item:
     image_alt: Inspirational books
     link: "https://twitter.com"
 
-  - title: Creating stylised images from a photo
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/111.jpg"
-    image_alt: Illustrator
-    link: "https://google.com"
-
-  - title: Chill Movies for Couples to Watch on Date Night
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/112.jpg"
-    image_alt: Movies
-    link: "https://www.netflix.com"
-
-  - title: The 8 Best Exercises for Weight Loss
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/114.jpg"
-    image_alt: Best exercises
-    link: "https://google.com"
-
-  - title: Ask Me A Question On Instagram
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/115.jpg"
-    image_alt: Ask Me A Question
-    link: "https://instagram.com"
-
 
 #-------------------------------
 # Hero Settings
@@ -80,10 +57,16 @@ hero:
 gallery:
   enable: true
   gallery__title: Ik werk graag met
-  gallery__columns: "20" # You can change the number of gallery columns
+  gallery__columns: "5" # You can change the number of gallery columns
   gallery__images:
     - alt: "deployteq"
       url: "/images/deployteq_logo_light.png"
+      url__dark: "/images/deployteq_logo_dark.png"
+      link: "https://www.deployteq.com"
+    - alt: "Mark Kruisman Digital Business Solutions"
+      url: "/images/logo_4_breed.png"
+      url__dark: ""
+      link: "https://www.markkruisman.nl"
 
 
 #-------------------------------

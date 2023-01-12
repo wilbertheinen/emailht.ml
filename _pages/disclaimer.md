@@ -4,10 +4,20 @@ title: Disclaimer
 permalink: /disclaimer/
 ---
 
-De inhoud van de website, waaronder maar niet uitsluitend: de teksten, afbeeldingen, vormgeving, merken en domeinnamen, zijn het eigendom van [emailht.ml](/) en worden beschermd door auteursrechten en intellectuele of industriële eigendomsrechten die onder het toepasselijk recht bestaan. Het is niet toegestaan om de website of enig gedeelte daarvan te verveelvoudigen dan wel ter beschikking te stellen zonder toestemming van [emailht.ml](/).
+[emailht.ml](/) (Kamer van Koophandel: 87811049), hierna te noemen [emailht.ml](/), verleent u hierbij toegang tot [https://www.emailht.ml](/) en publiceert hier ter informatie teksten, afbeeldingen en andere materialen.
 
-De door [emailht.ml](/) verstrekte informatie en afbeeldingen zijn met de grootst mogelijke zorgvuldigheid op deze website geplaatst, maar voor de juistheid en volledigheid kan niet worden ingestaan. [emailht.ml](/) streeft ernaar om de website constant te onderhouden en te actualiseren, maar kan er niet voor instaan dat de inhoud van deze website na verloop van tijd of op het moment dat deze website geraadpleegd wordt nog steeds actueel is.
+[emailht.ml](/) behoudt zich daarbij het recht voor op elk moment de inhoud aan te passen of onderdelen te verwijderen zonder daarover aan u mededeling te hoeven doen.
 
-De informatie op deze website kan altijd zonder aankondiging worden gewijzigd. De bezoeker van de website is zelf verantwoordelijk voor het gebruik van deze website. De websites die vanuit deze website bezocht kunnen worden, zijn niet door [emailht.ml](/) ingericht en worden niet door [emailht.ml](/) gemaakt.
+De informatie op [https://www.emailht.ml](/) is bedoeld als vrijblijvend en niet als een concreet aanbod om een overeenkomst te sluiten. Overeenkomsten worden alleen gesloten door aanvaarding van een als zodanig aangeduide offerte van [emailht.ml](/).
+## Beperkte aansprakelijkheid
+[emailht.ml](/) spant zich in om de inhoud van [https://www.emailht.ml](/) zo vaak mogelijk te actualiseren en/of aan te vullen. Ondanks deze zorg en aandacht is het mogelijk dat inhoud onvolledig en/of onjuist is.
 
-[emailht.ml](/) aanvaardt dan ook geen aansprakelijkheid voor schade in verband met het gebruik van deze website en de informatie (of de onmogelijkheid die te gebruiken), daaronder begrepen schade veroorzaakt door virussen of onjuistheid of onvolledigheid van informatie, informatie op of via een website waarnaar op de website verwezen wordt, of informatie van of via een website die naar een website verwijst en informatie die zonder voorafgaand overleg met ons op de website wordt geplaatst.
+De op [https://www.emailht.ml](/) aangeboden materialen worden aangeboden zonder enige vorm van garantie of aanspraak op juistheid. Deze materialen kunnen op elk moment wijzigen zonder voorafgaande mededeling van [emailht.ml](/).
+
+In het bijzonder zijn alle prijzen op [https://www.emailht.ml](/) onder voorbehoud van type- en programmeerfouten. Voor de gevolgen van dergelijke fouten wordt geen aansprakelijkheid aanvaard. Geen overeenkomst komt tot stand op basis van dergelijke fouten.
+
+Voor op [https://www.emailht.ml](/) opgenomen hyperlinks naar websites of diensten van derden kan [emailht.ml](/) nimmer aansprakelijkheid aanvaarden.
+## Auteursrechten
+Alle rechten van intellectuele eigendom betreffende deze materialen liggen bij [emailht.ml](/). Kopiëren, verspreiden en elk ander gebruik van deze materialen is niet toegestaan zonder schriftelijke toestemming van [emailht.ml](/), behoudens en slechts voor zover anders bepaald in regelingen van dwingend recht (zoals citaatrecht), tenzij bij specifieke materialen anders aangegeven is.
+## Overig
+Deze disclaimer kan van tijd tot tijd wijzigen.

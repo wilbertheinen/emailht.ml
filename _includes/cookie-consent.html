@@ -1,12 +1,12 @@
 <style>
-    #cookie-notice {padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+    #cookie-notice {z-index: 10; padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: 100%; background: var(--background-color); color: var(--text-color)}
     #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
     @media (max-width: 767px) {
         #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
-        #cookie-notice a {position: relative; bottom: 4px;}
+        #cookie-notice a {position: relative; bottom: 4px; color: var(--brand-color);}
     }
 </style>
-<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+<div id="cookie-notice"><span>Deze website gebruikt alleen functionele cookies om ervoor te zorgen dat deze website zo soepel mogelijk draait en bepaalde gebruikersvoorkeuren worden onthouden</span><a id="cookie-notice-accept">Akkoord</a> <a href="/privacy-policy">Meer informatie</a></div>
 <script>
     function createCookie(name,value,days) {
         var expires = "";
@@ -32,7 +32,23 @@
     }
 
     if(readCookie('cookie-notice-dismissed')=='true') {
-        {% include js/darkmode.js %}
+        {% if site.data.settings.color_scheme == "auto" %}
+if (localStorage.getItem("theme") === "dark") {
+  document.documentElement.setAttribute("dark", "");
+  document.documentElement.classList.add('dark-mode');
+}
+{% elsif site.data.settings.color_scheme == "light" %}
+  document.documentElement.setAttribute("light", "");
+  document.documentElement.classList.add('light-mode');
+{% elsif site.data.settings.color_scheme == "dark" %}
+  document.documentElement.setAttribute("dark", "");
+  document.documentElement.classList.add('dark-mode');
+{% else %}
+if (localStorage.getItem("theme") === "dark") {
+  document.documentElement.setAttribute("dark", "");
+  document.documentElement.classList.add('dark-mode');
+}
+{% endif %}
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
