@@ -187,7 +187,7 @@
 <p><a href="/">emailht.ml</a> ontwikkelt HTML en CSS in de vorm van singleshot e-mails, interactieve e-mails en interactieve email elementen en/of e-mail templates. Deze algemene voorwaarden zijn van toepassing op iedere overeenkomst tussen u als opdrachtgever en <a href="/">emailht.ml</a> als opdrachtnemer.</p>
 
 <h2 id="het-aanbod-en-de-overeenkomst">Het aanbod en de overeenkomst</h2>
-<p>Onze aanbiedingen / offertes bevatten duidelijke omschrijvingen van de opdracht. Een offerte is 14 dagen geldig. De overeenkomst wordt per e-mail bevestigd. Op elke overeenkomst zijn alleen onze algemene voorwaarden van toepassing.</p>
+<p>Onze aanbiedingen / offertes bevatten duidelijke omschrijvingen van de opdracht. Een offerte is 14 dagen geldig. De overeenkomst wordt per e-mail bevestigd. Op elke overeenkomst zijn alleen onze algemene voorwaarden van toepassing. Indien u als opdrachtgever in de opdracht bepalingen of voorwaarden opneemt die afwijken van (of niet voorkomen in) deze voorwaarden zijn deze voor <a href="/">emailht.ml</a> alleen bindend als <a href="/">emailht.ml</a> deze schriftelijk heeft aanvaard. Eventuele inkoop- of andere voorwaarden van de de opdrachtgever zijn niet van toepassing.</p>
 
 <h2 id="prijzen--betaling">Prijzen / betaling</h2>
 <p><a href="/">emailht.ml</a> werkt op basis van een vaste fee. De prijzen zijn exclusief BTW, tenzij in de offerte iets anders wordt vermeld. Eventuele onvoorziene kostenverhogingen na het aangaan van de overeenkomst, kunnen aan u doorberekend worden.</p>
@@ -196,9 +196,11 @@
 
 <p>Onze facturen moeten binnen 30 dagen worden betaald. Betaalt u niet of niet op tijd? Dan komen er extra kosten bij zoals wettelijke rente en buitengerechtelijke incassokosten.</p>
 
+<h2 id="strippenkaarten">Strippenkaarten</h2>
+<p><a href="/">emailht.ml</a> biedt strippenkaarten op maat aan. U als opdrachtgever kan deze strippenkaart aanvragen via e-mail. De strippenkaart dient voor het aanvangen van de werkzaamheden zijn voldaan. De strippenkaart is maximaal 6 maanden geldig. Restitutie van de openstaande strippen is niet mogelijk. 1 strip is 60 minuten. <a href="/">emailht.ml</a> houdt een urenregistratie bij. U als opdrachtgever kan <a href="/">emailht.ml</a> te allen tijde verzoeken om de urenregistratie te overleggen.</p>
+
 <h2 id="uitvoering-overeenkomst">Uitvoering overeenkomst</h2>
-<p>Wij spannen ons volledig in om de overeenkomst naar beste inzicht en vermogen uit te voeren. Wij geven geen garanties op het behalen van een bepaald resultaat. U geeft ons alle informatie die nodig is om de opdracht goed uit te kunnen voeren. Mocht dit toch niet lukken en de opdracht loopt daardoor vertraging op en/of wij moeten
-daardoor extra kosten maken, dan brengen wij deze bij u in rekening.</p>
+<p><a href="/">emailht.ml</a> bepaalt hoe en wanneer de overeengekomen opdracht wordt uitgevoerd. Wij spannen ons volledig in om de overeenkomst naar beste inzicht en vermogen uit te voeren met inachtneming van uw wensen als opdrachtgever. Wij geven geen garanties op het behalen van een bepaald resultaat. U geeft ons alle informatie die nodig is om de opdracht goed uit te kunnen voeren. Mocht dit toch niet lukken en de opdracht loopt daardoor vertraging op en/of wij moeten daardoor extra kosten maken, dan brengen wij deze bij u in rekening.</p>
 
 <p>Wij kunnen gebruik maken van derde partijen om de werkzaamheden voor u uit te voeren. Ook in dat geval blijven wij verantwoordelijk voor de goede uitvoering van onze overeenkomst.</p>
 
@@ -359,7 +361,7 @@ daardoor extra kosten maken, dan brengen wij deze bij u in rekening.</p>
         #cookie-notice a {position: relative; bottom: 4px; color: var(--brand-color);}
     }
 </style>
-<div id="cookie-notice"><span>Deze website gebruikt alleen functionele cookies om ervoor te zorgen dat deze website zo soepel mogelijk draait en bepaalde gebruikersvoorkeuren worden onthouden</span><a id="cookie-notice-accept">Akkoord</a> <a href="/privacy-policy">Meer informatie</a></div>
+<div id="cookie-notice"><span>Deze website gebruikt alleen functionele cookies om ervoor te zorgen dat gebruikersvoorkeuren worden onthouden en analytische cookies voor bezoekersstatistieken.</span><a id="cookie-notice-accept">Akkoord</a> <a href="/privacy-policy">Meer informatie</a></div>
 <script>
     function createCookie(name,value,days) {
         var expires = "";
@@ -393,10 +395,12 @@ if (localStorage.getItem("theme") === "dark") {
 
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
+        document.getElementsByClassName('embed').style.display = 'none';
     }
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
         createCookie('cookie-notice-dismissed','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
+        document.getElementsByClassName('embed').style.display = 'block';
         location.reload();
     });
 

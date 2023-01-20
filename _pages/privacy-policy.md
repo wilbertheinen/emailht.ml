@@ -17,7 +17,7 @@ De gegevens worden gebruikt om een product of dienst aan te bieden en/of om een 
 [emailht.ml](/) is goed beveiligd en wij nemen steeds maatregelen om misbruik van uw gegevens te voorkomen.
 
 ## Cookies
-Cookies zijn kleine tekstbestanden die websites tijdens of na uw bezoek plaatsen op uw computer, mobiele telefoon of tablet. [emailht.ml](/) gebruikt alleen functionele cookies om ervoor te zorgen dat deze website zo soepel mogelijk draait en bepaalde websitevoorkeuren worden onthouden. Door op akkoord te drukken, geeft u aan akkoord te zijn met het gebruik van cookies en het verzamelen van informatie.
+Cookies zijn kleine tekstbestanden die websites tijdens of na uw bezoek plaatsen op uw computer, mobiele telefoon of tablet. [emailht.ml](/) gebruikt functionele cookies om ervoor te zorgen dat gebruikersvoorkeuren worden onthouden en analytische cookies voor bezoekersstatistieken. Voor cookies die geen of weinig inbreuk op de privacy maken, is in principe geen toestemming van de bezoeker nodig. Het kan zijn dat een derde partij (bijvoorbeeld Youtube) cookies plaatst via embedded media. Door op akkoord te drukken, geeft u aan akkoord te zijn met het gebruik van cookies en het verzamelen van informatie.
 
 ## Termijn
 Wij bewaren gegevens zo lang als wij die nodig hebben of zolang de wet dat verplicht. Daarna worden uw gegevens verwijderd.

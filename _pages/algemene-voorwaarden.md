@@ -19,7 +19,7 @@ Deze algemene voorwaarden vindt u terug op onze website. De ingangsdatum is 7 de
 [emailht.ml](/) ontwikkelt HTML en CSS in de vorm van singleshot e-mails, interactieve e-mails en interactieve email elementen en/of e-mail templates. Deze algemene voorwaarden zijn van toepassing op iedere overeenkomst tussen u als opdrachtgever en [emailht.ml](/) als opdrachtnemer.
 
 ## Het aanbod en de overeenkomst
-Onze aanbiedingen / offertes bevatten duidelijke omschrijvingen van de opdracht. Een offerte is 14 dagen geldig. De overeenkomst wordt per e-mail bevestigd. Op elke overeenkomst zijn alleen onze algemene voorwaarden van toepassing.
+Onze aanbiedingen / offertes bevatten duidelijke omschrijvingen van de opdracht. Een offerte is 14 dagen geldig. De overeenkomst wordt per e-mail bevestigd. Op elke overeenkomst zijn alleen onze algemene voorwaarden van toepassing. Indien u als opdrachtgever in de opdracht bepalingen of voorwaarden opneemt die afwijken van (of niet voorkomen in) deze voorwaarden zijn deze voor [emailht.ml](/) alleen bindend als [emailht.ml](/) deze schriftelijk heeft aanvaard. Eventuele inkoop- of andere voorwaarden van de de opdrachtgever zijn niet van toepassing.
 
 ## Prijzen / betaling
 [emailht.ml](/) werkt op basis van een vaste fee. De prijzen zijn exclusief BTW, tenzij in de offerte iets anders wordt vermeld. Eventuele onvoorziene kostenverhogingen na het aangaan van de overeenkomst, kunnen aan u doorberekend worden.
@@ -28,9 +28,11 @@ U betaalt ons 50% van de fee voordat wij met onze werkzaamheden beginnen. De ove
 
 Onze facturen moeten binnen 30 dagen worden betaald. Betaalt u niet of niet op tijd? Dan komen er extra kosten bij zoals wettelijke rente en buitengerechtelijke incassokosten.
 
+## Strippenkaarten
+[emailht.ml](/) biedt strippenkaarten op maat aan. U als opdrachtgever kan deze strippenkaart aanvragen via e-mail. De strippenkaart dient voor het aanvangen van de werkzaamheden zijn voldaan. De strippenkaart is maximaal 6 maanden geldig. Restitutie van de openstaande strippen is niet mogelijk. 1 strip is 60 minuten. [emailht.ml](/) houdt een urenregistratie bij. U als opdrachtgever kan [emailht.ml](/) te allen tijde verzoeken om de urenregistratie te overleggen.
+
 ## Uitvoering overeenkomst
-Wij spannen ons volledig in om de overeenkomst naar beste inzicht en vermogen uit te voeren. Wij geven geen garanties op het behalen van een bepaald resultaat. U geeft ons alle informatie die nodig is om de opdracht goed uit te kunnen voeren. Mocht dit toch niet lukken en de opdracht loopt daardoor vertraging op en/of wij moeten
-daardoor extra kosten maken, dan brengen wij deze bij u in rekening.
+[emailht.ml](/) bepaalt hoe en wanneer de overeengekomen opdracht wordt uitgevoerd. Wij spannen ons volledig in om de overeenkomst naar beste inzicht en vermogen uit te voeren met inachtneming van uw wensen als opdrachtgever. Wij geven geen garanties op het behalen van een bepaald resultaat. U geeft ons alle informatie die nodig is om de opdracht goed uit te kunnen voeren. Mocht dit toch niet lukken en de opdracht loopt daardoor vertraging op en/of wij moeten daardoor extra kosten maken, dan brengen wij deze bij u in rekening.
 
 Wij kunnen gebruik maken van derde partijen om de werkzaamheden voor u uit te voeren. Ook in dat geval blijven wij verantwoordelijk voor de goede uitvoering van onze overeenkomst.
 
