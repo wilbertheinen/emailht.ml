@@ -9,6 +9,6 @@ Zoals ik al zei ligt mijn hart bij e-mail development. Ik vind het fantastisch o
 
 <p class="embed"><iframe src="https://www.youtube-nocookie.com/embed/bk-TQPn2PX4" frameborder="0" allowfullscreen></iframe></p>
 
-<p class="embed"><iframe src="https://player.vimeo-nocookie.com/video/536803774?h=e19f12d49b" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+<p class="embed"><iframe src="https://player.vimeo.com/video/536803774?h=e19f12d49b&dnt=1" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
 
 <p class="embed"><iframe src="https://www.youtube-nocookie.com/embed/alNdmC1Ojtw" frameborder="0" allowfullscreen></iframe></p>

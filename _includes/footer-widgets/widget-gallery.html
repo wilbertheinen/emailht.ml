@@ -9,7 +9,7 @@
       <div class="gallery" style="grid-template-columns: repeat({{site.data.settings.gallery.gallery__columns}}, auto);">
         {% for image in site.data.settings.gallery.gallery__images %}
         <div class="gallery__image">
-            <img src="{{site.baseurl}}{{image.url}}" alt="{{image.alt}}" loading="lazy">
+            <a href="{{image.link}}" target="_blank"><img src="{{site.baseurl}}{{image.url}}" alt="{{image.alt}}" loading="lazy"></a>
         </div>
         {% endfor %}
       </div>
