@@ -8,22 +8,22 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f9f9fc" />
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1a1a1a" />
 
-  <title>Tags</title>
+  <title>Over mijn werk</title>
   <meta name='description' content='Hét adres voor up-to-date, robuuste, responsive en toegankelijke HTML en CSS voor e-mail'>
 
-  <link rel="canonical" href="http://localhost:4000/tags/">
+  <link rel="canonical" href="http://localhost:4000/over-mijn-werk/">
   <link rel="alternate" type="application/rss+xml" title="emailht.ml" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tags – emailht.ml">
+  <meta name="twitter:title" content="Over mijn werk – emailht.ml">
   <meta name="twitter:description" content="">
-  <meta name="twitter:image:src" content="">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/wilbert-heinen_itg-connect.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Tags – emailht.ml">
+  <meta property="og:title" content="Over mijn werk – emailht.ml">
   <meta property="og:description" content="">
-  <meta property="og:image" content="">
+  <meta property="og:image" content="http://localhost:4000/images/wilbert-heinen_itg-connect.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -90,7 +90,7 @@
               
               
               <li class="nav__item">
-                <a href="/over-mijn-werk/" class="nav__link">Over mijn werk</a>
+                <a href="/over-mijn-werk/" class="nav__link active-link">Over mijn werk</a>
               </li>
               
               
@@ -151,82 +151,56 @@
   
     <!-- begin content -->
     <main class="content" aria-label="Content">
-      
-
-
-<!-- begin tags -->
-<div class="tags">
-
-  
-  
-  <div class="tags__inner is-hidden" id="emaildevelopment">
-    <div class="tags__box">
-      <div class="tag__info">
-        <h1 class="tag__title">emaildevelopment <span class="tag__counter">1</span></h1>
-      </div>
-    </div>
-    <div class="tag__content animate">
-      <div class="container">
-        <div class="row">
-          
+      <!-- begin hero -->
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+          <div class="hero__left">
+            <h1 class="hero__title">Over mijn werk</h1>
             
-              <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
+          </div>
 
-    <div class="article__head">
-      
-
-      
-      <a class="article__image" href="/happy-new-year/">
-        <img class="lazy" data-src="/images/alexander-naglestad-Zv-QuWlc_TU-unsplash.jpg" alt="Happy New Year!">
-      </a>
-      
-    </div>
-
-    <div class="article__content">
-
-      <div class="article__meta">
-        <a class="article__author__link" href="/about/">Wilbert Heinen</a> –
-        <time class="article__date" datetime="2023-01-01T08:00:00+01:00">1 January, 2023</time>
-      </div>
-
-      <h2 class="article__title">
-        <a href="/happy-new-year/">Happy New Year!</a>
-      </h2>
-
-      <p class="article__excerpt">Een goed voornemen voor 2023</p>
-
-      
-      <div class="article__tags">
-        
-        <a href="/tags/?tag=emaildevelopment" class="article__tag">emaildevelopment</a>
-        
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-            
           
+          <div class="hero__right">
+            
+            
+            <div class="hero__image">
+              <img class="hero__image__primary lazy" data-src="/images/wilbert-heinen_itg-connect.jpg" alt="Over mijn werk">
+            </div>
+            
+            
+          </div>
+          
+
         </div>
       </div>
     </div>
   </div>
-  
-  
-  
+</section>
+<!-- end hero -->
+
+<!-- begin page -->
+<div class="container animate">
+
+  <article class="page">
+    <div class="page__content">
+      <p>Zoals ik al zei ligt mijn hart bij e-mail development. Ik vind het fantastisch om de grenzen van e-mailclients op te zoeken en toch iets werkend krijgen in een e-mail client waarvan eerst gedacht werd dat dat niet mogelijk was. Hierover vertellen vind ik minstens even leuk en hieronder vind je een aantal presentaties en gesprekken over e-mail development.</p>
+
+<p class="embed"><iframe src="https://www.youtube-nocookie.com/embed/bk-TQPn2PX4" frameborder="0" allowfullscreen=""></iframe></p>
+
+<p class="embed"><iframe src="https://player.vimeo-nocookie.com/video/536803774?h=e19f12d49b" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen=""></iframe></p>
+
+<p class="embed"><iframe src="https://www.youtube-nocookie.com/embed/alNdmC1Ojtw" frameborder="0" allowfullscreen=""></iframe></p>
+
+    </div>
+  </article>
 
 </div>
-<!-- end tags -->
+<!-- end page -->
 
-<script>
-  var tag_name = window.location.search.replace("?tag=", "#");
-  if (tag_name) {
-    var el = document.querySelector(tag_name);
-    el.classList.remove("is-hidden");
-  }
-</script>
+
     </main>
     <!-- end content -->
 
