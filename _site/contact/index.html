@@ -363,12 +363,10 @@ if (localStorage.getItem("theme") === "dark") {
 
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
-        document.getElementsByClassName('embed').style.display = 'none';
     }
     document.getElementById('cookie-notice-accept').addEventListener("click",function() {
         createCookie('cookie-notice-dismissed','true',31);
         document.getElementById('cookie-notice').style.display = 'none';
-        document.getElementsByClassName('embed').style.display = 'block';
         location.reload();
     });
 
