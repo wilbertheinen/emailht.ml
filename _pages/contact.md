@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-image: '/images/wilbert-heinen_itg-connect.png'
+image: '/images/wilbert-heinen_headshot.jpeg'
 ---
 
 Heb je een vraag? Wil je ergens over sparren? Of heb je ergens hulp bij nodig?

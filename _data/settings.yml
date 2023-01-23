@@ -32,15 +32,20 @@ author:
 #-------------------------------
 # Links Section Settings
 links:
-  enable: false
-  links__title: "Useful links"
+  enable: true
+  links__title: "Handige links"
 
 links__item:
-  - title: 10 Inspirational Books Every Creative Should Read
-    description: Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
-    image_url: "/images/110.jpg"
-    image_alt: Inspirational books
-    link: "https://twitter.com"
+  - title: Email Geeks
+    description: The Slack community where email marketers, designers, and developers meet to talk shop.
+    image_url: "https://email.geeks.chat/img/open-graph.png"
+    image_alt: Email Geeks
+    link: "https://email.geeks.chat/"
+  - title: Email Markup Consortium
+    description: A community group working to improve the user experience, accessibility, performance, consistency, and reliability of email markup
+    image_url: "https://emailmarkup.org/img/default-og-image.png"
+    image_alt: Email Markup Consortium logo
+    link: "https://emailmarkup.org/"
 
 
 #-------------------------------
