@@ -2,7 +2,7 @@
 layout: page
 title: Accessible Email
 permalink: /accessible-email-documentation/
-image: '/images/27.jpg'
+image: '/images/accessibility.png'
 ---
 
 # Accessible Email
