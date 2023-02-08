@@ -43,6 +43,8 @@
 
   <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
 
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="bfec9306-a2f3-4b04-b3b6-30e6c1f4e7ef" data-blockingmode="auto" type="text/javascript"></script>
+
   <style>
   
   /*!------------------------------------------------------------------
@@ -358,57 +360,7 @@
 
   <script src="/js/scripts.js"></script>
   <script src="/js/common.js"></script>
-  <style>
-    #cookie-notice {z-index: 10; padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: 100%; background: var(--background-color); color: var(--text-color)}
-    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
-    @media (max-width: 767px) {
-        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
-        #cookie-notice a {position: relative; bottom: 4px; color: var(--brand-color);}
-    }
-</style>
-<div id="cookie-notice"><span>Emailht.ml gebruikt alleen functionele cookies om ervoor te zorgen dat gebruikersvoorkeuren worden onthouden en analytische cookies voor bezoekersstatistieken.</span><a id="cookie-notice-accept">Akkoord</a> <a href="/privacy-policy">Meer informatie</a></div>
-<script>
-    function createCookie(name,value,days) {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + value + expires + "; path=/";
-    }
-    function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
-    function eraseCookie(name) {
-        createCookie(name,"",-1);
-    }
-
-    if(readCookie('cookie-notice-dismissed')=='true') {
-        
-if (localStorage.getItem("theme") === "dark") {
-  document.documentElement.setAttribute("dark", "");
-  document.documentElement.classList.add('dark-mode');
-}
-
-    } else {
-        document.getElementById('cookie-notice').style.display = 'block';
-    }
-    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-dismissed','true',31);
-        document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
-    });
-
-</script>
-
+  <script id="CookieDeclaration" src="https://consent.cookiebot.com/bfec9306-a2f3-4b04-b3b6-30e6c1f4e7ef/cd.js" type="text/javascript" async></script>
 </body>
 
 </html>
