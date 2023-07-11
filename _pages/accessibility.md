@@ -3,6 +3,7 @@ layout: page
 title: Accessible Email
 permalink: /accessible-email-documentation/
 image: '/images/accessibility.png'
+language: en
 ---
 
 # Accessible Email

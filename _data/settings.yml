@@ -5,7 +5,7 @@ logo: "/images/logo_emailhtml_light.png" # You can add own logo. For example '/i
 logo_dark: "/images/logo_emailhtml_dark.png"
 description: Hét adres voor up-to-date, robuuste, responsive en toegankelijke HTML en CSS voor e-mail
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
-
+language: nl
 
 #-------------------------------
 # Navigation Settings
