@@ -21,6 +21,9 @@ Sinds 2022 ben ik jurylid bij de [DDMA EMAS awards](https://ddma.nl/kennisbank/i
 Mijn hart ligt bij e-mail development. Ik vind het fantastisch om de grenzen van e-mailclients op te zoeken en toch iets werkend krijgen in een e-mail client waarvan eerst gedacht werd dat dat niet mogelijk was. Als ik een e-mail maak zorg ik dat deze op z’n minst responsive, de afbeeldingen retinaproof, geoptimaliseerd voor darkmode en zo toegankelijk mogelijk geschreven is. Deze kunnen dan worden aangevuld met interactieve elementen of bijvoorbeeld webfonts als een zogenaamde ‘Progressive Enhancement’.
 
 Hierover vertellen vind ik minstens even leuk!
+
+![Wilbert at LitmusLive]({{site.baseurl}}/images/snip-it-before-you-ship-it.jpeg)
+
 * [InboxExpo](https://inboxexpo.com/speaker-profile/wilbert-heinen/)
 * [InboxExpo: Fitness voor je e-mail](https://player.vimeo.com/video/536803774?h=e19f12d49b&dnt=1)
 * [LitmusLive: Snip It Before You Ship It](https://www.litmus.com/blog/get-ready-for-litmus-live-week-2020/).
