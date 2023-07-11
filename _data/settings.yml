@@ -13,8 +13,6 @@ menu__settings:
   menu__items:
     - title: "Over mij"
       url: "/over-mij/"
-    - title: "Over mijn werk"
-      url: "/over-mijn-werk/"
     - title: "Contact"
       url: "/contact/"
     - title: "Accessibility in e-mail"

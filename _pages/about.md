@@ -20,9 +20,12 @@ Sinds 2022 ben ik jurylid bij de [DDMA EMAS awards](https://ddma.nl/kennisbank/i
 
 Mijn hart ligt bij e-mail development. Ik vind het fantastisch om de grenzen van e-mailclients op te zoeken en toch iets werkend krijgen in een e-mail client waarvan eerst gedacht werd dat dat niet mogelijk was. Als ik een e-mail maak zorg ik dat deze op z’n minst responsive, de afbeeldingen retinaproof, geoptimaliseerd voor darkmode en zo toegankelijk mogelijk geschreven is. Deze kunnen dan worden aangevuld met interactieve elementen of bijvoorbeeld webfonts als een zogenaamde ‘Progressive Enhancement’.
 
-Hierover vertellen vind ik minstens even leuk! En dit heb ik op een aantal inspiratiesessies van e-Village en TeamITG mogen doen, maar bijvoorbeeld ook virtueel bij onder andere [InboxExpo](https://inboxexpo.com/speaker-profile/wilbert-heinen/) en [LitmusLive: Snip It Before You Ship It](https://www.litmus.com/blog/get-ready-for-litmus-live-week-2020/). [Hier](/over-mijn-werk) kun je daar meer van zien en/of naar luisteren.
-
-![Wilbert at LitmusLive]({{site.baseurl}}/images/snip-it-before-you-ship-it.jpeg)
+Hierover vertellen vind ik minstens even leuk!
+* [InboxExpo](https://inboxexpo.com/speaker-profile/wilbert-heinen/)
+* [InboxExpo: Fitness voor je e-mail](https://player.vimeo.com/video/536803774?h=e19f12d49b&dnt=1)
+* [LitmusLive: Snip It Before You Ship It](https://www.litmus.com/blog/get-ready-for-litmus-live-week-2020/).
+* [E-mail Marketing Podcast #15: AMP, Dark Mode, Interactiviteit & Toegankelijkheid](https://www.youtube.com/embed/bk-TQPn2PX4)
+* [LitmusLive: VW to the Rescue by Wilbert Heinen](https://www.youtube.com/embed/alNdmC1Ojtw)
 
 ## Waarom daarnaast nog een eigen toko?
 Omdat dit allemaal eigenlijk ook gewoon een hobby is ben ik [emailht.ml](/) gestart. Zo kan ik naast m’n werk bij [Centraal Beheer Zakelijk](https://www.centraalbeheer.nl/zakelijk) ook nog steeds voor andere clubs toffe e-mails en robuuste e-mail templates bouwen. Tegelijkertijd blijf ik op de hoogte van de meest recente ontwikkeling binnen e-mail development en kan ik dat weer toepassen bij [Centraal Beheer Zakelijk](https://www.centraalbeheer.nl/zakelijk).
