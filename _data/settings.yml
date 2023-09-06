@@ -15,8 +15,8 @@ menu__settings:
       url: "/over-mij/"
     - title: "Contact"
       url: "/contact/"
-    - title: "Accessibility in e-mail"
-      url: "/accessible-email-documentation/"
+    - title: "Accessible Email Resources"
+      url: "/accessible-email-resources/"
 
 
 #-------------------------------

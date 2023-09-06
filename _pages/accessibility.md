@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Accessible Email
-permalink: /accessible-email-documentation/
+title: Accessible Email Resources
+permalink: /accessible-email-resources/
 image: '/images/accessibility.png'
 language: en
 ---
