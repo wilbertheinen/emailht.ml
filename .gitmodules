@@ -1,0 +1,6 @@
+[submodule "accessible-email-documentation"]
+	path = accessible-email-documentation
+	url = https://github.com/wilbertheinen/accessible-email-documentation
+[submodule "_pages/accessible-email-documentation"]
+	path = _pages/accessible-email-documentation
+	url = https://github.com/wilbertheinen/accessible-email-documentation
