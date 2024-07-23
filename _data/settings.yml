@@ -44,12 +44,12 @@ links__item:
     image_url: "https://emailmarkup.org/img/default-og-image.png"
     image_alt: Email Markup Consortium logo
     link: "https://emailmarkup.org/"
-    - title: Parcel
+  - title: Parcel
     description: The Email Coding Platform
     image_url: "https://parcel.io/brand-guidelines-assets/parcel-wordmark-white.svg"
     image_alt: Parcel logo
     link: "https://parcel.io/"
-
+    
 
 #-------------------------------
 # Hero Settings
