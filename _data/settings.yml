@@ -54,7 +54,7 @@ links__item:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hoi, Ik ben <span>Wilbert Heinen</span>. # Wrap text in a <span></span> tag to highlight and underline text.
+  hero__title: Hoi, Ik ben <span>Wilbert Heinen</span> # Wrap text in a <span></span> tag to highlight and underline text.
   hero__job: Email Developer
   hero__description: Lichtgewicht, robuuste, responsive en toegankelijke HTML voor e-mail is helemaal mijn ding.
   hero__button__text: Meer over mij
