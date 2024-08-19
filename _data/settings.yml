@@ -92,7 +92,7 @@ mailchimp:
 #-------------------------------
 # Social Icons Settings
 social:
-- {icon: "ion-logo-twitter", name: "Twitter", link: "https://twitter.com/wilbertheinen"}
+#- {icon: "ion-logo-twitter", name: "Twitter", link: "https://twitter.com/wilbertheinen"}
 - {icon: "ion-logo-github", name: "Github", link: "https://github.com/wilbertheinen"}
 - {icon: "ion-logo-codepen", name: "Codepen", link: "https://codepen.io/wilbertheinen"}
 - {icon: "ion-logo-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/in/wilbertheinen/"}
