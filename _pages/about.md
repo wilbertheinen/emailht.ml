@@ -5,7 +5,7 @@ permalink: /over-mij/
 image: '/images/wilbert-heinen_itg-connect.jpg'
 ---
 
-Hoi, ik ben Wilbert Heinen. Getrouwd, 3 kids en mag graag een balletje trappen (en happen :-P) en als het even uitkomt voor of achter de barbecue te vinden.
+Hoi, ik ben Wilbert Heinen. 3 kids en mag graag een balletje trappen (en happen :-P), vissen en varen en als het even uitkomt voor of achter de barbecue te vinden.
 
 ## Dagelijks leven
 In het dagelijks leven ben ik sinds 1 oktober 2020 werkzaam bij [Centraal Beheer](https://www.centraalbeheer.nl/) als Digital Marketeer met een specialisme in E-mail Marketing Automation en dan met name de technische invulling hiervan en bouw en onderhoud ik meerdere e-mails en e-mail templates.

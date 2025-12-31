@@ -5,7 +5,7 @@ permalink: /algemene-voorwaarden/
 ---
 
 ## Wie is [emailht.ml](/)?
-* Adres: Prins Clausstraat 7, 3751DN te Bunschoten-Spakenburg
+* Adres: Dorpsstraat 81, 3751EN te Bunschoten-Spakenburg
 * Telefoon: <a href="tel:+31630980217">06 – 30 98 02 17</a>
 * E-mailadres: <a href="mailto:hello@emailht.ml">hello@emailht.ml</a>
 * Website: [https://www.emailht.ml](/)
