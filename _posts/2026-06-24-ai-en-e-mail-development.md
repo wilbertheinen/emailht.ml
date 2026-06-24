@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "AI en E-mail Development"
-description: "Van Handmatig Coderen naar Slimmer Produceren"
+title: AI en E-mail Development
+description: Van Handmatig Coderen naar Slimmer Produceren
 date: 2026-06-24
-image: ""
 tags: [ai, email, development, automation, marketing]
 ---
 
