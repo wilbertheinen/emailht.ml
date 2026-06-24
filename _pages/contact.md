@@ -13,8 +13,8 @@ Stuur me gerust een bericht of neem op een andere manier contact met me op.
 ### emailht.ml
 
 <address>
-Dorpsstraat 81<br>
-3751EN Bunschoten-Spakenburg
+Dorpsstraat 4<br>
+3751ER Bunschoten-Spakenburg
 </address>
 
 T: <a href="tel:+31630980217">06 – 30 98 02 17</a><br>
