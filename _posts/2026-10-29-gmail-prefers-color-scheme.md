@@ -3,7 +3,7 @@ layout: post
 title: "Gmail fixt Dark Mode. Maar is het wel een echte fix?"
 date: 2026-10-29
 description: "Gmail laat e-maildevelopers geforceerde Dark Mode uitschakelen met een meta-tag. Maar echte ondersteuning voor prefers-color-scheme ontbreekt nog."
-image: ''
+image: '/images/Gmail versus Apple Mail in donkere modus.png'
 tags: [Gmail, Darkmode, CSS, Apple Mail, Outlook]
 
 ---
