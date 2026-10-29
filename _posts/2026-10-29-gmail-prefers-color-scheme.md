@@ -1,39 +1,39 @@
 ---
 layout: post
-title: "Gaat Gmail eindelijk prefers-color-scheme ondersteunen?"
+title: "Gmail fixt Dark Mode. Maar is het wel een echte fix?"
 date: 2026-10-29
-description: "Een mogelijke Gmail Dark Mode-fix, de verschillen tussen e-mailclients en een slimme workaround voor Apple Mail en Gmail."
+description: "Gmail laat e-maildevelopers geforceerde Dark Mode uitschakelen met een meta-tag. Maar echte ondersteuning voor prefers-color-scheme ontbreekt nog."
 image: ''
 tags: [Gmail, Darkmode, CSS, Apple Mail, Outlook]
 
 ---
 
-Dark Mode in de mobiele Gmail-app is al jaren een uitdaging voor e-maildevelopers. Waar Apple Mail ons met `@media (prefers-color-scheme: dark)` controle geeft over de weergave, bepaalt Gmail op iOS en Android grotendeels zelf wat er met onze kleuren gebeurt.
+Dark Mode in de mobiele Gmail-app is al jaren een uitdaging voor e-maildevelopers. Vooral de automatische kleurinversie kan zorgvuldig ontworpen merkkleuren, CTA's en contrasten flink veranderen.
 
-Maar daar lijkt mogelijk iets te veranderen.
+Er is eindelijk beweging gekomen in een [langlopend issue bij Google](https://issuetracker.google.com/issues/201441498?pli=1#comment18). Alleen blijkt de gemelde fix iets anders te zijn dan waar veel developers op hoopten.
 
-## Er gebeurt iets bij Gmail
+**Gmail ondersteunt niet ineens `@media (prefers-color-scheme: dark)`. We kunnen nu de geforceerde Dark Mode uitschakelen.**
 
-In [Google's Issue Tracker](https://issuetracker.google.com/issues/201441498#comment18) staat een issue over **`prefers-color-scheme` en automatische kleurinversie in de Gmail-app voor iOS en Android**. Bij het issue is een fix gemeld.
+## Wat heeft Google opgelost?
 
-Dat is nog geen garantie dat Gmail binnenkort volledige ondersteuning voor de media query krijgt. De daadwerkelijke werking moet eerst in de apps worden getest. Maar het is een interessante ontwikkeling voor iedereen die HTML-e-mails bouwt.
+Google heeft voor de mobiele Gmail-apps een manier geïntroduceerd om aan te geven dat een e-mail alleen voor Light Mode is ontworpen:
 
-## Waarom Dark Mode zo lastig blijft
+```html
+<meta name="color-scheme" content="light only">
+```
 
-Zoals [Litmus](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers) en [Email on Acid](https://www.emailonacid.com/blog/article/email-development/dark-mode-for-email/) beschrijven, gebruiken e-mailclients verschillende benaderingen:
+Deze meta-tag plaats je in de `<head>` van de e-mail. Ondersteunende Gmail-apps kunnen daardoor afzien van hun automatische Dark Mode-kleurinversie, ook als de ontvanger Dark Mode gebruikt.
 
-- **No color changes:** de interface wordt donker, maar de e-mail behoudt zijn kleuren.
-- **Partial color invert:** bepaalde achtergronden en tekstkleuren worden automatisch aangepast.
-- **Full color invert:** zowel lichte als donkere kleuren kunnen worden geïnverteerd.
+Dat is winst: een ontwerp kan dichter bij de bedoelde kleuren blijven. Maar het is iets anders dan ondersteuning voor een eigen Dark Mode-variant. Gmail geeft ons hiermee vooral een **opt-out** voor geforceerde Dark Mode.
 
-Daarnaast ondersteunen sommige clients **developer-controlled Dark Mode**: je kunt dan zelf stijlen aanbieden via een media query. Dat is geen vierde inversiemethode, maar een mogelijkheid om de weergave bewust te sturen.
+## Waarom is dat niet de fix waarop we hoopten?
 
-Automatische inversie kan merkkleuren, CTA's, logo's en contrasten veranderen. Met ondersteuning voor `prefers-color-scheme` kun je bijvoorbeeld schrijven:
+Bij echte ondersteuning voor `prefers-color-scheme` zouden we een aparte Dark Mode-versie kunnen ontwerpen:
 
 ```css
 @media (prefers-color-scheme: dark) {
   .email-background {
-    background-color: #111111 !important;
+    background-color: #121212 !important;
   }
 
   .email-text {
@@ -42,29 +42,13 @@ Automatische inversie kan merkkleuren, CTA's, logo's en contrasten veranderen. M
 }
 ```
 
-Het verschil is belangrijk: **Dark Mode ontwerpen in plaats van Dark Mode achteraf repareren.**
+Daarmee kun je bewust andere achtergronden, tekstkleuren, CTA's en logo's tonen. Dat werkt al jaren in Apple Mail. De mobiele Gmail-apps ondersteunen deze media query nog steeds niet op dezelfde manier.
 
-## Apple Mail laat zien hoe het kan
+Zoals [Litmus](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers) en [Email on Acid](https://www.emailonacid.com/blog/article/email-development/dark-mode-for-email/) beschrijven, verschillen e-mailclients sterk in hun aanpak: sommige laten kleuren ongemoeid, andere passen gedeeltelijke of volledige kleurinversie toe. Dat is iets anders dan een door de developer ontworpen Dark Mode.
 
-Apple Mail ondersteunt al jaren het gebruik van `prefers-color-scheme`. Met de juiste declaraties kun je een eigen Dark Mode-variant aanbieden:
+## Gmail in Light Mode, Apple Mail in Dark Mode
 
-```html
-<meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark">
-
-<style>
-  :root {
-    color-scheme: light dark;
-    supported-color-schemes: light dark;
-  }
-</style>
-```
-
-Vervolgens kun je met `@media (prefers-color-scheme: dark)` specifieke tekst- en achtergrondkleuren, CTA's en zelfs alternatieve logo's instellen.
-
-## Een interessante workaround voor Gmail en Apple Mail
-
-Een creatieve techniek is om de HTML-meta-informatie en de CSS-declaratie bewust verschillend in te stellen:
+Het wordt technisch interessant als je Gmail's automatische inversie wilt voorkomen, maar je eigen Dark Mode in Apple Mail wilt behouden.
 
 ```html
 <meta name="color-scheme" content="light only">
@@ -75,43 +59,50 @@ Een creatieve techniek is om de HTML-meta-informatie en de CSS-declaratie bewust
   }
 
   @media (prefers-color-scheme: dark) {
-    /* Eigen Dark Mode-styling */
+    .email-background {
+      background-color: #121212 !important;
+    }
+
+    .email-text {
+      color: #ffffff !important;
+    }
   }
 </style>
 ```
 
-Het idee: met `light only` probeer je Gmail zijn automatische Dark Mode-behandeling te laten beperken, terwijl Apple Mail via de CSS-declaratie nog steeds de eigen Dark Mode-stijlen kan toepassen.
+De meta-tag vertelt Gmail dat het ontwerp alleen Light Mode aanbiedt. De CSS-declaratie op `:root` laat Apple Mail weten dat de e-mail ook een Dark Mode-variant ondersteunt. Daardoor kunnen de eigen Dark Mode-regels daar actief blijven.
 
-**Let op:** dit is een clientafhankelijke workaround, geen gegarandeerde oplossing voor iedere Gmail-versie. Test de uiteindelijke e-mail op iOS en Android en controleer ook het gedrag in Apple Mail.
+Een slimme oplossing, maar ook typerend voor e-maildevelopment: **binnen hetzelfde document geven we verschillende signalen af omdat clients die anders interpreteren.**
 
-Het is tegelijk een mooi voorbeeld van de huidige complexiteit: we geven binnen één HTML-document verschillende signalen af omdat mailclients die verschillend interpreteren.
+Dit is geen universele garantie. Het gedrag kan verschillen per appversie en accounttype. Er zijn meldingen dat de meta-tag bij niet-Google-accounts in de Gmail-app wordt verwijderd. Test daarom op echte iOS- en Android-apparaten, met de accounttypen die voor jouw doelgroep relevant zijn. Ook previewsystemen kunnen achterlopen op de daadwerkelijke Gmail-app.
 
-## Waarom ondersteuning in Gmail belangrijk zou zijn
+## Willen we Dark Mode eigenlijk wel uitschakelen?
 
-Voor e-maildevelopers zou betrouwbare ondersteuning betekenen dat we:
+Daar zit voor mij de belangrijkste kanttekening.
 
-- Merkkleuren en contrasten bewuster kunnen beheren.
-- CTA's en logo's specifiek voor Dark Mode kunnen ontwerpen.
-- Minder client-specifieke workarounds nodig hebben.
-- Dark Mode als vaste variant in een modulair e-mail design system kunnen opnemen.
-- De toegankelijkheid en voorspelbaarheid van e-mailweergave kunnen verbeteren.
+Met `light only` behouden we meer controle over branding en rendering, maar we negeren mogelijk ook een bewuste voorkeur van de ontvanger. Iemand die Dark Mode gebruikt, krijgt dan alsnog een lichte e-mail te zien.
 
-## En Outlook dan?
+Vanuit toegankelijkheid en gebruikerservaring is dat niet automatisch de beste keuze. Een leesbaar contrast, herkenbare CTA's en een prettig ontwerp blijven belangrijker dan het koste wat kost behouden van exacte merkkleuren.
 
-Ook delen van het Outlook-ecosysteem, waaronder Outlook.com, bieden mogelijkheden om Dark Mode-styling te targeten. De ondersteuning verschilt echter per versie en platform. Naast media queries worden in bepaalde Outlook-clients bijvoorbeeld selectors als `[data-ogsc]` gebruikt.
+De meta-tag is dus een nuttige optie, geen oplossing die je zonder afweging in iedere template moet opnemen.
 
-De uitdaging is dus niet simpelweg dat Microsoft geen Dark Mode ondersteunt, maar dat de implementatie binnen het Outlook-landschap niet overal consistent is.
+## En Outlook?
 
-## Zijn we er bijna?
+Apple Mail biedt al jaren mogelijkheden om Dark Mode zelf te stylen. Ook delen van het Outlook-ecosysteem bieden Dark Mode-targeting, maar de ondersteuning verschilt per versie en platform. Consistentie blijft daar een uitdaging.
 
-Een gemelde fix in Google's Issue Tracker is nog geen officiële bevestiging van volledige `prefers-color-scheme`-ondersteuning in de Gmail-app. Maar als Gmail daadwerkelijk meer controle gaat bieden, kan dat een belangrijke stap zijn richting voorspelbaardere Dark Mode-e-mails.
+## Conclusie: een stap vooruit, maar niet de eindoplossing
 
-Apple Mail laat al jaren zien wat mogelijk is. Hopelijk volgt Gmail, en wordt de ondersteuning binnen Outlook uiteindelijk ook consistenter.
+Google heeft wel degelijk iets verbeterd. We kunnen de geforceerde Dark Mode in ondersteunende Gmail-apps nu beïnvloeden met één meta-tag, zonder ingewikkelde kleurinversie-hacks.
 
-**Minder tijd besteden aan het bestrijden van Dark Mode, en meer tijd aan het ontwerpen ervan.**
+Maar de oorspronkelijke wens blijft bestaan: **zelf een Dark Mode-ontwerp aanbieden via `@media (prefers-color-scheme: dark)`.**
+
+Tot die tijd kunnen we kiezen tussen Gmail's automatische kleurbehandeling en een Light Mode-opt-out. Dat is meer controle dan voorheen, maar nog niet de controle die Apple Mail ons al jaren geeft.
+
+**We kunnen Gmail's Dark Mode nu beter tegenhouden. Maar echt ontwerpen voor Gmail Dark Mode? Daar wachten we nog op.**
 
 ## Bronnen
 
-- [Google Issue Tracker – prefers-color-scheme en Gmail Dark Mode](https://issuetracker.google.com/issues/201441498#comment18)
+- [Google Issue Tracker – Gmail, prefers-color-scheme en kleurinversie (comment 18)](https://issuetracker.google.com/issues/201441498?pli=1#comment18)
 - [Litmus – Dark Mode for Email: The Definitive Guide for Marketers](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers)
 - [Email on Acid – Master the Art of Dark Mode Email Design and Coding](https://www.emailonacid.com/blog/article/email-development/dark-mode-for-email/)
+- [Dyspatch – Gmail Now Respects Your Color-Scheme](https://www.dyspatch.io/blog/gmail-now-respects-your-color-scheme-how-to-stop-forced-dark-mode-in-the-gmail-app/)
